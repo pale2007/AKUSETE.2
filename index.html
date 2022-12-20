@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pass.css">
+    <title>Login</title>
+</head>
+<body>
+  <main>
+   <section class="main-title">
+      <h1>WORKSPACE</h1>
+      <h2>Control de Estacionamientos</h2>
+    </section>   
+    <section class="main-logo">
+        <section class="main-input">
+          <img src="./logo33.png" alt="">
+          <h3 class="title">Por favor ingresa tus datos</h3>
+          <form class=form onsubmit="go(event)">
+            <div class="ingreso">
+              <label class= label for="nombre">
+               <span>Usuario :</span>
+               <input class=input type="text" name=nombre id="nombre" placeholder="  kk" autocomplete="usuario" required/>
+               </label><br>
+               <label class= label for="password">
+               <span>Password</span>
+               <input class= input type="password" name= password id="password" placeholder="******" required/>
+               </label>
+              </div>   
+              <div>
+                  <button class="main-button" type="submit"  >Ingresar a plataforma</button>
+              </div>
+          </form>
+        </section>    
+    </section>
+  </main>   
+    <footer>
+      <span>
+          Antofagasta - Santiago - Concepción
+      </span>
+             
+    </footer>
+    <script src="./index.js"></script> 
+</body>
+</html>
